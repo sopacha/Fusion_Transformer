@@ -1,0 +1,11 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+train_rgb: '/home/sofia/Desktop/SensFus/sorted_dataset/images/train' # 128 images 
+val_rgb: '/home/sofia/Desktop/SensFus/sorted_dataset/images/test_2/night'  # 128 images
+train_ir: '/home/sofia/Desktop/SensFus/sorted_dataset/ir/train'  # 128 images
+val_ir: '/home/sofia/Desktop/SensFus/sorted_dataset/ir/test_2/night' 
+
+# number of classes
+nc: 3
+
+# class names
+names: [ 'person','people', 'cyclist']
