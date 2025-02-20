@@ -14,7 +14,7 @@ Extensive experiments and ablation studies on multiple datasets demonstrate that
  
 ### Overview
 <div align="left">
-<img src="https://github.com/DocF/multispectral-object-detection/blob/main/cft.png" width="800">
+<img src="https://github.com/sopacha/Fusion_Transformer/blob/main/twostream.png" width="800">
 </div>
 
 ## Installation 
@@ -65,17 +65,10 @@ You need to convert all annotations to YOLOv5 format.
 Refer: https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data
 
 ## Run
-#### Download the pretrained weights
-yolov5 weights (pre-train) 
-#### Change the data cfg
-some example in data/multispectral/
-
-#### Change the model cfg
-some example in models/transformer/
 
 note!!!   I used xxxx_transfomerx3_dataset_multi.yaml 
 
-### Train Test and Detect
+### Train and Test 
 train: ``` python3 train.py --cfg ./models/transformer yolov5l_fusion_transformerx3_VEDAI_multi.yaml --data ./data/multispectral/VEDAI_sofi.yaml```
 
 test: ``` python3 test.py --weights ./runs/train/xxxx/weights/best.pt --data ./data/multispectral/VEDAI_sofi_test.yaml```
