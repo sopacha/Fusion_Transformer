@@ -1,0 +1,12 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+train_rgb: '/home/sofia/Desktop/SensFus/sorted_VEDAI/images/train' # 128 images
+val_rgb: '/home/sofia/Desktop/SensFus/sorted_VEDAI/images/test'   # 128 images
+train_ir: '/home/sofia/Desktop/SensFus/sorted_VEDAI/ir/train'  # 128 images
+val_ir: '/home/sofia/Desktop/SensFus/sorted_VEDAI/ir/test'   # 128 images
+
+# number of classes
+nc: 9
+
+# class names
+names: ['car', 'truck', 'pickup', 'tractor', 'camping car', 'boat', 'van', 'plane', 'other']
+
